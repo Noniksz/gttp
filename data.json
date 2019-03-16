@@ -1,13 +1,1 @@
-{
-    "Data": [
-        {
-            "Method": "GET",
-            "URL": "http://www.mocky.io/v2/5c7958c7300000c74949b368",
-            "MapRequestHeaderKeyValue": {},
-            "Body": "",
-            "ContentType": "application/json",
-            "ProjectName": "",
-            "Alias": "~/GTTP"
-        }
-    ]
-}
+{"Data":[{"Method":"GET","URL":"http://www.google.com","MapRequestHeaderKeyValue":{},"Body":"# GTTP - Go HTTP Client for Terminal UIs\n\n## TOC\n\n* [Dependencies](#dependencies)\n* [Installation](#installation)\n* [Testing](#testing)\n* [Troubleshooting](#troubleshooting)\n\n## Dependencies\n\n* tview\n\n`GTTP` project is based on the awesome https://github.com/rivo/tview library to make terminal user interfaces.\n\nThanks to [Rivo](https://github.com/rivo)\n\n* clipboard\n\nIt also used https://github.com/atotto/clipboard library \"Provide copying and pasting to the Clipboard for Go\".\n\nThanks to [Ato Araki](https://github.com/atotto)\n\n## Installation\n\n```bash\n# Download the Go project\n$ go get github.com/joakim-ribier/gttp\n\n# Build\n$ cd $HOME/go/src/gttp\n$ go build\n\n# Execute\n$ ./gttp data.json\n```\n\n## Testing\n\n```bash\n$ go test  ./...\n?   \tgithub.com/joakim-ribier/gttp/httpclient\t[no test files]\nok  \tgithub.com/joakim-ribier/gttp/models\t0.001s\n```\n```bash\n$ go test -v ./...\n?   \tgithub.com/joakim-ribier/gttp/httpclient\t[no test files]\n=== RUN   TestDefaultValue\n--- PASS: TestDefaultValue (0.00s)\nPASS\nok  \tgithub.com/joakim-ribier/gttp/models\t0.001s\n```\n```bash\n$ go test -cover ./...\n?   \tgithub.com/joakim-ribier/gttp/httpclient\t[no test files]\nok  \tgithub.com/joakim-ribier/gttp/models\t0.001s\tcoverage: 6.1% of statements\n```\n\n## Troubleshooting\n\n### Linux, Unix\n\n:warning:\nIf the shortcuts (copy/paste) do not work, read the README.md of [clipboard](https://github.com/atotto/clipboard) for more specific information.\n\n\u003e Linux, Unix (requires 'xclip' or 'xsel' command to be installed)\n\n```bash\n$ sudo apt install xclip\n```\n\n![](https://media0.giphy.com/media/1XgIXQEzBu6ZWappVu/giphy.gif)\n","ContentType":"application/json","ProjectName":"","Alias":"~/GTTP"},{"Method":"GET","URL":"http://www.mocky.io/v2/5c7958c7300000c74949b368","MapRequestHeaderKeyValue":{},"Body":"","ContentType":"application/json","ProjectName":"","Alias":"~/GTTP"}],"Config":{"Pattern":""},"Context":{"Env":null}}

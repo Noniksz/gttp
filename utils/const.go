@@ -15,13 +15,12 @@ const (
 	TitleShortcuts = "Press [blue::ub]Escape[white::-] or Ctrl+[blue::ub]Q[white::-] to exit"
 	GitHubLink     = "~//github.com/joakim-ribier/gttp"
 	TitleAPIText   = `
-   /\/|   ____ _____ _____ ____    /\/|
-  |/\/   / ___|_   _|_   _|  _ \  |/\/
-        | |  _  | |   | | | |_) |
-        | |_| | | |   | | |  __/
-         \____| |_|   |_| |_|
-                            o
-                             o
+	 ____           _____ _____ ____  
+	/ ___|         |_   _|_   _|  _ \ 
+   | |  _   _____    | |   | | | |_) |
+   | |_| | |_____|   | |   | | |  __/ 
+	\____|           |_|   |_| |_|    
+									 
 `
 )
 
